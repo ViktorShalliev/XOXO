@@ -1,16 +1,30 @@
 @charset "utf-8";
 
 body{
-background-color:#CB9F9F; 
+background-color: antiquewhite; 
 	
 }
 
-h1
-{color: #000000;}
+.headings{
+	text-align: center;
+	color: ;
+	font-size: ;
+	
+}
 
 .nav {
 	font-family: "bebas-neue";
+	font-size: 18px;
 }
-row{
-	align-content:flex-end;
+
+
+.row{
+	align-content: end;
+
+}
+.paragraph{
+	text-align: center;
+	text-color:;
+	background-color:;
+	margin-top: ;
 }
