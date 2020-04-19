@@ -3,25 +3,34 @@
 h1
 {color: fuchsia;}
 
-.nav {
+
+
+.fixed-bottom {
+    background-color: #c1272d;
+    padding-top: 4px;
+}
+
+.fa  {
+    font-size: 30px;
+    align-content: center;
+    height: 4rem;
+    align: right;
+}
+
+
+
+
+.text-uppercase {
+    font-family: "bebas-neue";
+    font-weight: bold;
+    color: white;
+	
+	
+	
+}
+.list-unstyled {
+	color: white;
+	font-weight: bold;
 	font-family: "bebas-neue";
 }
-
-.background {
-	background-color: #ffded1;
-}
-
-.fa {
-	padding: 20px;
-	font-size: 30px;
-	width: 50px;
-	
-	
-}
-
- 
-
-
-
-	
 	
