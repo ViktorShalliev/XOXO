@@ -37,6 +37,16 @@ body,
 	border-radius: 12px;	
 }
 
+.loginButton:hover {opacity: 0.7;}
+
+/*Navigation bar*/
+
+.navbar {
+	padding: 0px;
+	margin: 0px;
+	font-size: 15px;
+}
+
 /*Login page*/
 
 .user_card {
@@ -72,7 +82,9 @@ body,
 		width: 150px;
 		border-radius: 50%;
 		border: 2px solid white;
+		vertical-align: middle;
 	}
+
 	.form_container {
 		margin-top: 100px;
 	}
@@ -124,6 +136,30 @@ body,
 /*Contact page*/
 
 /*Footer*/
+.fixed-bottom {
+    background-color: #c1272d;
+    padding: 8px;
+	margin: 0px;
+}
+
+
+.fa  {
+    font-size: 15px !important;
+    align-content: center;
+    height: 3rem;
+
+}
+
+.text-uppercase {
+	font-size: 13px !important;
+    color: white;
+}
+
+.list-unstyled {
+	color: white;
+	font-size: 13px;
+}
 
 /*Chatbox pop up*/
 >>>>>>> Sally_edit
+/*Chatbox pop up*/
