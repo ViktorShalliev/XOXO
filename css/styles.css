@@ -161,8 +161,24 @@ body,
 	font-size: 13px;
 }
 
+
+.text-center {
+    margin-right: 5px;
+    margin-top: 12px;
+    padding-bottom: 0px;
+    
+}
+
+.leftpage {
+    padding-top: 53px;	
+	padding-bottom: 70px;
+}
+
+
+.rightpage {
+   
+}
+
 /*Chatbox pop up*/
 >>>>>>> Sally_edit
 /*Chatbox pop up*/
-
-
