@@ -111,12 +111,13 @@ body,
 	background-color:transparent;
 	margin-top: 5px ;
 }
-.container{
+.grid-container{
 	padding: 3em;
+	margine-bottom: 3em;
 	border-radius: 2em;
 	background-color: antiquewhite;
-	width: 1920px;
-	height: 1080px;
+	width: stretch;
+	height: stretch;
 		
 }
 .row{
