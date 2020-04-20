@@ -1,13 +1,4 @@
 @charset "utf-8";
-
-<<<<<<< HEAD
-h1
-{color: fuchsia;}
-
-.nav {
-	font-family: "bebas-neue";
-}
-=======
 /*General*/
 
 * {
@@ -161,6 +152,4 @@ body,
 	font-size: 13px;
 }
 
-/*Chatbox pop up*/
->>>>>>> Sally_edit
 /*Chatbox pop up*/
