@@ -28,10 +28,10 @@
 	"buffers":
 	[
 		{
-			"file": "/C/Users/Viktorcho/Desktop/Bootstrap - Copy/my styles.css",
+			"file": "css/styles.css",
 			"settings":
 			{
-				"buffer_size": 18,
+				"buffer_size": 2765,
 				"line_ending": "Windows"
 			}
 		}
@@ -68,6 +68,7 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Viktorcho/Desktop/Bootstrap - Copy/my styles.css",
 		"/C/Users/Viktorcho/Desktop/Final-Repository/VIktorShalliev-PRJ4-Repository/index.html",
 		"/C/Users/Viktorcho/Desktop/XOXO/index.html",
 		"/C/Users/Viktorcho/Desktop/PRJ4-repository/index.html",
@@ -116,11 +117,11 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/C/Users/Viktorcho/Desktop/Bootstrap - Copy/my styles.css",
+					"file": "css/styles.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 18,
+						"buffer_size": 2765,
 						"regions":
 						{
 						},

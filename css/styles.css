@@ -1,22 +1,92 @@
 @charset "utf-8";
-
-body{
-background-color: antiquewhite; 
-	
+* {
 }
 
-.headings{
+body,
+		html {
+
+/*Header*/
+
+.header{
+	background-color: #FFDED1;
+}
+
+.loginButton{
+	font-size: 17px;
+	background-color: #c1272d !important;
+	border-color: #c1272d !important;
 	text-align: center;
-	color: black;
-	font-size: 26;
-	
+	color: white !important;
+	border-radius: 12px;	
 }
 
-.nav {
-	font-family: "bebas-neue";
-	font-size: 18px;
-}
+/*Login page*/
 
+.user_card {
+		color: white;
+		height: 400px;
+		width: 350px;
+		margin-top: auto;
+		margin-bottom: auto;
+		background: #c1272d;
+		position: relative;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		padding: 10px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		border-radius: 5px;
+
+	}
+	.brand_logo_container {
+		position: absolute;
+		height: 170px;
+		width: 170px;
+		top: -75px;
+		border-radius: 50%;
+		background: #ffded1;
+		padding: 10px;
+		text-align: center;
+	}
+	.brand_logo {
+		height: 150px;
+		width: 150px;
+		border-radius: 50%;
+		border: 2px solid white;
+	}
+	.form_container {
+		margin-top: 100px;
+	}
+	.login_btn {
+		width: 100%;
+		background: grey !important;
+		color: white !important;
+	}
+	.login_btn:focus {
+		box-shadow: none !important;
+		outline: 0px !important;
+	}
+	.login_container {
+		padding: 0 2rem;
+	}
+	.input-group-text {
+		background: grey !important;
+		color: white !important;
+		border: 0 !important;
+		border-radius: 0.25rem 0 0 0.25rem !important;
+	}
+	.input_user,
+	.input_pass:focus {
+		box-shadow: none !important;
+		outline: 0px !important;
+	}
+	.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+		background-color: grey !important;
+	}
+/*About Us page*/
+ 	
 .paragraph{
 	text-align: center;
 	font-color: black;
@@ -24,7 +94,7 @@ background-color: antiquewhite;
 	margin-top: 5px ;
 }
 .container{
-	padding: 2em;
+	padding: 3em;
 	border-radius: 2em;
 	background-color: antiquewhite;
 	width: 1920px;
@@ -41,4 +111,26 @@ background-color: antiquewhite;
 	margin-top: 5px ;
 }
 
+/*Mission page*/
+
+.mission-container-fluid {
+	align-content: center;
+	text-align: center;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
 	
+}
+
+/*Community page*/
+
+/*Quotes page*/
+
+/*Message Service page*/
+
+/*Contact page*/
+
+/*Footer*/
+
+/*Chatbox pop up*/
+
