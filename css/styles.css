@@ -136,7 +136,7 @@ body,
 /*Contact page*/
 
 /*Footer*/
-.fixed-bottom {
+.bottom {
     background-color: #c1272d;
     padding: 8px;
 	margin: 0px;
@@ -177,6 +177,11 @@ body,
 
 .rightpage {
    
+}
+
+.text-center {
+    margin-right: 19px;	
+	
 }
 
 /*Chatbox pop up*/
