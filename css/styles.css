@@ -177,11 +177,7 @@ body,
 
 
 /*Footer*/
-<<<<<<< HEAD
-.bottom {
-=======
 .sticky-bottom {
->>>>>>> master
     background-color: #c1272d;
     padding: 8px;
 	margin: 0px;
@@ -207,31 +203,4 @@ body,
 }
 
 
-<<<<<<< HEAD
-.text-center {
-    margin-right: 5px;
-    margin-top: 12px;
-    padding-bottom: 0px;
-    
-}
 
-.leftpage {
-    padding-top: 53px;	
-	padding-bottom: 70px;
-}
-
-
-.rightpage {
-   
-}
-
-.text-center {
-    margin-right: 19px;	
-	
-}
-
-/*Chatbox pop up*/
->>>>>>> Sally_edit
-/*Chatbox pop up*/
-=======
->>>>>>> master
