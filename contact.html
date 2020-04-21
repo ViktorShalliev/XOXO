@@ -9,12 +9,14 @@
 	</head>
 <body>
 
- 
 
+	
+	
+	<!-- Header -->
 <header>
         <nav class="navbar navbar-expand-md header navbar-light sticky-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href=""><img src="images/Homepage/Supporting Images/logo_and_name.png" width="215px" height="90px" alt=""></a>
+                <a class="navbar-brand" href="index.html"><img src="images/Homepage/Supporting Images/logo_and_name.png" width="215px" height="90px" alt=""></a>
                 <div class="navbar">
                   <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
@@ -25,6 +27,8 @@
               </div>
         </nav>
     </header>
+
+
 <!-- Navbar -->
 	<nav class="navbar navbar-expand-lg navbar-dark navbar-custom bg-custom" style="background-color:#C1272D">
 	  <a class="navbar-brand" href="#"></a> <!-- Put link in href -->
@@ -34,46 +38,63 @@
 	  <div class="collapse navbar-collapse" id="navbarNav">
 		<ul class="navbar-nav">
 		  <li class="nav-item active">
-			<a class="nav-link" href="index.html" style="color:white">Home <span class="sr-only"></span></a>
+			<a class="nav-link" href="index.html" >Home <span class="sr-only"></span></a>
 		  </li>
 			<li class="nav-item">
-			<a class="nav-link" href="#" style="color:white">About Us</a> 
+			<a class="nav-link" href="aboutpage.html" style="color:white">About Us</a> 
 		  </li>
 		  <li class="nav-item">
 			<a class="nav-link" href="missionpage.html" style="color:white">Mission <span class="sr-only"></span></a>
 		  </li>
 		   <li class="nav-item">
-			<a class="nav-link" href="#" style="color:white">Community</a> 
+			   <div class="dropdown show">
+			   	<a class="nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#" style="color:white">Services</a> 
+			   <div class="dropdown-menu serviceDrop" aria-labelledby="dropdownMenuLink">
+				<a class="dropdown-item" href="#" style="color:white">Message Service</a>
+				<a class="dropdown-item" href="#" style="color:white">Forum</a>
+				<a class="dropdown-item" href="#" style="color:white">Chat Box</a>
+			  </div>
+			   </div>
 		  </li>
 			<li class="nav-item">
 			<a class="nav-link" href="#" style="color:white">Quotes</a> 
 			</li>
 			<li class="nav-item">
-			<a class="nav-link" href="#" style="color:white">Message Service</a> 
+			<a class="nav-link" href="#" style="color:white">Testimonials</a> 
 		  </li>
 			<li class="nav-item">
-			<a class="nav-link" href="#" style="color:white">Contact Us</a> 
+			<a class="nav-link" href="#" style="color:white">Contact</a> 
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#" style="color:white">Justification</a> 
 		  </li>
 		</ul>
 	  </div>
 	</nav>
+<!-- Maid grid -->
 
-	
-	
-<!-- Main grid -->
+	<!-- Main grid -->
 <div class="row">
-	<div class="leftpage col-md-6 mt-md-0 mt-3">
-		<h3 class="socialmediatext"> Check our socials for more! </h3> <br><br>
+	<div class="leftpage col-md-6 mt-md-0 mt-3"> 
+		
+		<div class="socialmediatext">
+		<h3 class="textsocial"> Check our socials for more! </h3> <br><br>
 		
 		<div class="socialmedia">
+			
+			<a href="https://www.instagram.com/xoxo_the_brand/">
+					<img class="instagramcontactus" src="Images/Homepage/Supporting Images/Instagramlogo.png" alt="instagramlogo" />
+				</a>
 		<a  href="#"> 
 		  
-		   <img class="socialmedia"  src="Images/Homepage/Supporting Images/Facebooklogo.png"  alt="facebooklogo" align="left"/>
+		   <img class="facebookcontactus"  src="Images/Homepage/Supporting Images/Facebooklogo.png"  alt="facebooklogo"  />
 			
 		 </a>
+			
 	    </div>
+			
 		
-		
+		</div>
 		
 		
 		</div>
@@ -84,7 +105,8 @@
 			<!-- Default form contact -->
 <form class="text-center border border-light p-5" action="#!">
 
-    <p class="h4 mb-4">Contact us</p>
+    <p class="h4 mb-4">Have a question or suggestion? <br> Contact us! </p>
+	 
 
     <!-- Name -->
     <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
@@ -132,7 +154,7 @@
 	</div>
 		
 	</div>
-		</div>
+</div>
 
 	
 	
@@ -143,48 +165,57 @@
 	
 	
 	
+	
+	
+	
+	
+	
+	
+	
+		
 <!-- Footer -->
-	<footer class="bottom">
+	<footer class="footer sticky-bottom">
 	<div class="page-footer font-small">
 		<div class="container-fluid text-center text-md-left">
 			<div class="row">
-				<div class="col-md-2 mb-md-0 mb-3"> <br>
+				<div class="col-md-1 mb-md-0 mb-2"> <br>
 					<div class="footer-brand">
 						<a class="footer-brand" href="index.html"> 
 							<img src="Images/Homepage/Supporting Images/FF Logo.png" height="60px" alt="logo" /> </a>
 					</div>
 		    </div>
-            <div class="col-md-2 mb-md-0 mb-3">
-				<h5 class="text-uppercase"></h5>
+            <div class="col-md-2 mb-md-0 mb-2">
 				<ul class="list-unstyled">
 					<li>
-						<a href="#!" style="color: white" >About Us</a>
+						<a href="aboutpage.html" style="color: white" >About Us</a>
 					</li>
                     <li>
                         <a href="missionpage.html" style="color: white" >Mission</a>
                     </li>
-                    <li>
-                        <a href="#!" style="color: white" >Community</a>
-                    </li>
 				</ul>  
 			</div>
-			<div class="col-md-3 mb-md-0 mb-3">
-				<h5 class="text-uppercase"> </h5>
+			<div class="col-md-2 mb-md-0 mb-2">
 				<ul class="list-unstyled">
 					<li>
-						<a href="#!" style="color:white" >Quotes</a>
+						<a href="aboutpage.html" style="color: white" >Services</a>
+					</li>
+                    <li>
+                        <a href="missionpage.html" style="color: white" >Quotes</a>
+					</li>
+				</ul>  
+			</div>
+			<div class="col-md-2 mb-md-0 mb-2">
+				<ul class="list-unstyled">
+					<li>
+						<a href="#!" style="color:white" >Testimonials</a>
 					</li>
 					<li>
-						<a href="#!" style="color: white" >Message Service</a>
-					</li>
-					<li>
-						<a href="#!" style="color:white" >Contact us</a>
+						<a href="#!" style="color: white" >Contact</a>
 					</li>
 				</ul>
 			</div>
 	
-			<div class="col-md-5 mt-md-0 mt-3" >
-				<h5 class="text-uppercase" align="right" >SOCIAL MEDIA</h5>  
+			<div class="col-md-5 mt-md-0 mt-2" > 
 				<a href="https://www.facebook.com/Love-Yourself-XOXO-10275829468405" >
 					<img class="fa fa-facebook"  src="Images/Homepage/Supporting Images/Facebooklogo.png"  alt="facebooklogo" align="right"/>
 				</a>
@@ -200,16 +231,18 @@
 
 
 	
-	
-	
-	
-	
-	
-	
-<!-- Optional JavaScript -->
+
+			<!-- Optional JavaScript -->
     <!-- jQuery first, (Popper.js is included in) Bootstrap JS -->
     <script src="js/jquery-3.4.1.slim.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
+
+<style>
+
+
+
+</style>
+

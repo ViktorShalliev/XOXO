@@ -176,6 +176,54 @@ body,
 /*Contact page*/
 
 
+
+.socialmedia {
+    font-size: 15px !important;
+    align-content: center;
+    height: 3rem;
+	padding: 2px;
+	margin: 3px;
+	margin-right: 0px;
+}
+
+.border-light {
+    margin-right: 14px;
+    margin-left: 14px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.socialmediatext {
+    background-color: #c1272d;
+    margin-top: 161px;
+    margin-right: 54px;
+    padding-bottom: 119px;
+    margin-left: 54px;
+    margin-bottom: -250px;
+    border-radius: 93px 93px 92px;
+}
+
+.textsocial {
+    padding-top: 27px;
+    padding-left: 58px;
+    font-size: 25pt;
+    font-weight: bold;
+}
+
+.instagramcontactus {
+    height: 8rem;    
+}
+
+.facebookcontactus {
+    height: 8rem;    
+}
+
+.socialmedia {
+    margin-left: 55px;
+    padding-left: 16px;
+}
+
+
 /*Footer*/
 .sticky-bottom {
     background-color: #c1272d;
