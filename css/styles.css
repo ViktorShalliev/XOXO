@@ -168,6 +168,12 @@ body,
 
 
 /*Testimonials page*/
+.card-columns {
+	column-count: 3;
+}
+
+  
+
 
 
 /*Justification page*/
@@ -220,7 +226,7 @@ body,
 
 .socialmedia {
     margin-left: 55px;
-    padding-left: 16px;
+    padding-left: 8px;
 }
 
 
