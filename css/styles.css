@@ -1,13 +1,4 @@
 @charset "utf-8";
-
-<<<<<<< HEAD
-h1
-{color: fuchsia;}
-
-.nav {
-	font-family: "bebas-neue";
-}
-=======
 /*General*/
 
 * {
@@ -40,6 +31,12 @@ body,
 .loginButton:hover {opacity: 0.7;}
 
 /*Navigation bar*/
+
+.serviceDrop{
+	background-color: #c1272d;
+	color: white !important;
+	font-size: 15px !important;
+}
 
 .navbar {
 	padding: 0px;
@@ -115,6 +112,32 @@ body,
 		background-color: grey !important;
 	}
 /*About Us page*/
+ 	
+.paragraph{
+	text-align: center;
+	font-color: black;
+	background-color:transparent;
+	margin-top: 5px ;
+}
+.grid-container{
+	padding: 3em;
+	margine-bottom: 3em;
+	border-radius: 2em;
+	background-color: antiquewhite;
+	background-color: #FFDED1;
+	width: stretch;
+	height: stretch;
+		
+}
+.row{
+	width: stretch;
+}
+.paragraph-1{
+	text-align:center;
+	font-color: black;
+	background-color:transparent;
+	margin-top: 5px ;
+}
 
 /*Mission page*/
 
@@ -128,40 +151,63 @@ body,
 }
 
 /*Community page*/
+/*Services page*/
 
 /*Quotes page*/
 
 /*Message Service page*/
 
+
+/*Forum page*/
+
+
+/*Chatbox page and pop up*/
+
+
+/*Quotes page*/
+
+
+/*Testimonials page*/
+
+
+/*Justification page*/
+
+
 /*Contact page*/
 
+
 /*Footer*/
+<<<<<<< HEAD
 .bottom {
+=======
+.sticky-bottom {
+>>>>>>> master
     background-color: #c1272d;
     padding: 8px;
 	margin: 0px;
 }
 
 
+
 .fa  {
     font-size: 15px !important;
     align-content: center;
     height: 3rem;
-    height: 2.5rem;
-
+	padding: 2px;
+	margin: 3px;
+	margin-right: 0px;
 }
 
-.text-uppercase {
-	font-size: 13px !important;
-    color: white;
-}
 
 .list-unstyled {
 	color: white;
 	font-size: 13px;
+	padding: 10px;
+    
 }
 
 
+<<<<<<< HEAD
 .text-center {
     margin-right: 5px;
     margin-top: 12px;
@@ -187,3 +233,5 @@ body,
 /*Chatbox pop up*/
 >>>>>>> Sally_edit
 /*Chatbox pop up*/
+=======
+>>>>>>> master
