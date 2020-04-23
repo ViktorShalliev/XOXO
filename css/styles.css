@@ -28,7 +28,8 @@ body,
 	border-radius: 12px;	
 }
 
-.loginButton:hover {opacity: 0.7;}
+.loginButton:hover {
+	background-color: #A52126;}
 
 /*Navigation bar*/
 
@@ -44,6 +45,20 @@ body,
 	font-size: 15px;
 }
 
+.navi a:hover {
+	background-color: #A52126;
+	color: white;
+}
+
+.navbar a.active {
+	background-color: #A52126;
+	color: white;
+}
+
+
+.socialbutton {
+	align-content: right;
+}
 /*Login page*/
 
 .user_card {
@@ -111,6 +126,24 @@ body,
 	.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
 		background-color: grey !important;
 	}
+
+/*Home page*/
+
+.welcome {
+	text-align: center;
+	
+}
+
+.SubscribeButton {
+		font-size: 30px;
+		background-color: #c1272d !important;
+		border-color: #c1272d !important;
+		text-align: center;
+		color: white !important;
+		border-radius: 12px;
+	}
+
+
 /*About Us page*/
  	
 .paragraph{
@@ -123,16 +156,17 @@ body,
 	padding: 3em;
 	margine-bottom: 3em;
 	border-radius: 2em;
-	background-color: antiquewhite;
 	background-color: #FFDED1;
 	width: stretch;
 	height: stretch;
 		
 }
-.row{
+
+.rowAbout {
 	width: stretch;
 }
-.paragraph-1{
+
+.paragraph-1 {
 	text-align:center;
 	font-color: black;
 	background-color:transparent;
@@ -141,19 +175,26 @@ body,
 
 /*Mission page*/
 
-.mission-container-fluid {
+.mission {
 	align-content: center;
-	text-align: center;
-	width: 100%;
+	text-align: center;	
 	padding: 0px;
-	margin: 0px;
-	
+	margin: auto;
 }
 
+.val {
+	margin: 30px;
+}
+
+
 /*Community page*/
+
+
 /*Services page*/
 
+
 /*Quotes page*/
+
 
 /*Message Service page*/
 
@@ -184,14 +225,21 @@ body,
 }
 
 
+.socials { 
+	position: absolute;
+}
 
 .fa  {
     font-size: 15px !important;
-    align-content: center;
+    align-content: right !important;
     height: 3rem;
 	padding: 2px;
 	margin: 3px;
 	margin-right: 0px;
+}
+
+.footerbrand {
+	position: static;
 }
 
 
