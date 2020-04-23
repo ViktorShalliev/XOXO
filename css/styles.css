@@ -119,7 +119,7 @@ body,
 	background-color:transparent;
 	margin-top: 5px ;
 }
-.grid-container-fluid{
+.grid-container{
 	padding: 3em;
 	margine-bottom: 3em;
 	border-radius: 2em;
@@ -127,11 +127,10 @@ body,
 	background-color: #FFDED1;
 	width: stretch;
 	height: stretch;
-		
+	vertical-align: middle;
 }
-.row{
-	width: stretch;
-}
+
+
 .paragraph-1{
 	text-align:center;
 	font-color: black;
@@ -162,6 +161,7 @@ body,
 
 
 /*Chatbox page and pop up*/
+
 
 
 /*Quotes page*/
