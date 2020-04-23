@@ -156,7 +156,54 @@ body,
 /*Quotes page*/
 
 /*Message Service page*/
+.product-card { /* message service card with text */
+  background-color: #fdfefe;
+  max-width: 550px;
+  min-height: 320px;
+  margin: 0 auto;
+  margin-top: 200px;
+  margin-bottom: 150px;
+  box-shadow: 8px 12px 30px #b3b3b3;
+  color: black;
+  font-weight: normal;
+  text-align: center;
+  font-size: 18px;
+	position: relative;
+}
 
+.product-details{ /* text on the message service subscribtion card */
+	margin-left: 10px;
+	margin-right: 10px;
+}
+	
+.btn-dark { /* button message service subscribe */
+align-content: center;
+background-color:#c1272d;
+border-color: #c1272d;
+color: #ffded1;
+text-align: center;
+}
+
+.responsive { /* message service phone image column */
+	width: 500px;
+	height: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	align-self: center;
+}
+
+.card-header { /* header of quote card */
+	background-color: #c1272d;
+	font-size: 30px;
+}
+.blockquote-footer { /* credits quote card */
+	color: #c1272d;
+}
+
+.card { /* quote card */
+	margin-bottom: 60px;
+	text-align: center;
+}
 
 /*Forum page*/
 
