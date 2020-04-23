@@ -9,10 +9,10 @@
 	</head>
 
 <body>
-		<div class="container-chat">
+        <div class="chat-container-fluid">
 		<div class="msg-header">
 			<div class="msg-header-img">
-				<img src="Images/Chatbox/Supporting Images/FF-Logo.png" alt="logo"/>
+				<img class="img-chat" src="Images/Chatbox/Supporting Images/FF-Logo.png" alt="logo"/>
 			</div>
 			<div class="active">
 				<h5>XOXO</h5>
@@ -25,12 +25,12 @@
 						<div class="msg-page">
 							<div class="received-chats">
 								<div class="received-chats-img">
-								<img src="Images/laura.jpg" alt="pp"/>
+								<img class="img-chat" src="Images/laura.jpg" alt="pp"/>
 								</div>
 									<div class="received-msg">
 									<div class="received-msg-inbox">
-									<p>ook a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the</p>
-										<span class="time">11:01 PM| April/24</span>
+									<p>I want to enjoy the sunshine outside with a beer!</p>
+										<span class="time">17:00 PM| April/24</span>
 									</div>
 									</div>
 								</div>
@@ -38,20 +38,20 @@
 								
 									<div class="outgoing-chat-msg">
 									<div class="outgoing-chats-img">
-									<img src="Images/Aboutpage/Supporting-images/FF-Logo.png" alt="logo"/>
+									<img class="img-chat" src="Images/Aboutpage/Supporting-images/FF-Logo.png" alt="logo"/>
 									</div>
-									<p>ook a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the</p>
-									<span class="time">11:05 PM| April/24</span>
+									<p>We will bring you the beer!</p>
+									<span class="time">17:01 PM| April/24</span>
 									</div>
 								</div>
 								<div class="received-chats">
 								<div class="received-chats-img">
-								<img src="Images/laura.jpg" alt="pp"/>
+								<img class="img-chat" src="Images/laura.jpg" alt="pp"/>
 								</div>
 								<div class="received-msg">
 								<div class="received-msg-inbox">
-								<p>ook a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the!</p>
-										<span class="time">11:07 PM| April/24</span>
+								<p>I have to grade HTML's!</p>
+										<span class="time">17:02 PM| April/24</span>
 									</div>
 									</div>
 								</div>
@@ -59,10 +59,10 @@
 								
 									<div class="outgoing-chat-msg">
 									<div class="outgoing-chats-img">
-									<img src="Images/Aboutpage/Supporting-images/FF-Logo.png" alt="logo"/>
+									<img class="img-chat" src="Images/Aboutpage/Supporting-images/FF-Logo.png" alt="logo"/>
 									</div>
-									<p>industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer</p>
-									<span class="time">11:08 PM| April/24</span>
+									<p>There is always time for a quick break! See you in 10 minutes!</p>
+									<span class="time">17:03 PM| April/24</span>
 									</div>
 								</div>
 							</div>
@@ -71,13 +71,18 @@
 				</div>
 		<div class="msg-bottom">
 			<div class="input-group">
-			<input type="text" class="form-control" placeholder="write a message">
-				<div class="input-group-append">
-					<span class="input-group-text"><i class="fa fa-paper-plane"></i></span>
-					</div>
+			<input type="text" class="form-control" placeholder="Tell us!">
+				<div>
+				<button type="button" class="button-send" data-toggle="modal" data-target="#exampleModalCenter">
+  					Send!
+				</button>
+				</div> 
+				<div class="input-chat">
+				</div>
 				</div>
 			</div>
 		</div>
+      </div>
 	<!-- Optional JavaScript -->
     <!-- jQuery first, (Popper.js is included in) Bootstrap JS -->
     <script src="js/jquery-3.4.1.slim.min.js"></script>
