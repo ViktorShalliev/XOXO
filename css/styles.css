@@ -354,8 +354,8 @@ body,
 /*Services page*/
 .crd { /* services cards with text */
 	  background-color: #fdfefe;
-	  max-width: 450px;
-	  min-height: 320px;
+	  max-width: 350px;
+	  min-height: 400px;
 	  margin: 30px;
 	  box-shadow: 8px 12px 30px #b3b3b3;
 	  color: black;
