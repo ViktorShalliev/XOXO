@@ -198,6 +198,7 @@ body,
 }
 .buttoncommunity {
 	background-color: #c1272d;
+	color: white;
 }
 
 .image1 {
@@ -245,12 +246,12 @@ body,
 	background-color: #c1272d;
 	border-color: #c1272d;
 	text-align: center;
-	color: white !important;
-		
-}
+	color: white;
+	}
 
 .backtopage:hover {
 	background-color: #A52126;
+	
 }
 
 .page-header {
@@ -383,6 +384,8 @@ body,
 /*Quotes page*/
 
 
+
+
 /*Message Service page*/
 .product-card { /* message service card with text */
   background-color: #fdfefe;
@@ -446,6 +449,7 @@ text-align: center;
     text-align: center;
     margin-left: 64px;
     padding-left: 1px;
+    margin-top: 14px;
 }
 
 .mainContent {
@@ -453,6 +457,7 @@ text-align: center;
     min-height: 310px;
     text-align: center;
     margin-left: 22px;
+    margin-top: 15px;
 }
 
 /*Testimonials page*/
