@@ -7,7 +7,6 @@
 .container-chat{
 	margin: auto; 
 	max-width: 400px;
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	letter-spacing: 0.5px;
 	margin-left: 30%;
 	max-height: 200px;
@@ -169,5 +168,4 @@
 	font-color: black;
 	background-color:transparent;
 	margin-top: 5px ;
-	font-family: 
 }
