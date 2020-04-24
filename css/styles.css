@@ -555,3 +555,13 @@ img{
 	margin-left: 5px;
 	margin-bottom: 1px;
 }
+
+.teampage-grid-container
+{
+	padding: 3em;
+	margine-bottom: 3em;
+	border-radius: 2em;
+	background-color: #FFDED1;
+	width: stretch;
+	height: stretch;
+}
