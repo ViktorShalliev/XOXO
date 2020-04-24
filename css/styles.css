@@ -255,13 +255,19 @@ body,
 	margin-right: 10px;
 }
 	
-.btn-dark { /* button message service subscribe */
-align-content: center;
-background-color:#c1272d;
-border-color: #c1272d;
-color: #ffded1;
-text-align: center;
+.subscribe{ /* button message service subscribe */
+	font-size: 17px;
+	background-color: #c1272d;
+	border-color: #c1272d;
+	text-align: center;
+	color: white;
+	border-radius: 12px;
+	margin-bottom: 10px;
 }
+
+.subscribe:hover { /* button messsage service subscribe when clicking */
+	background-color: #A52126;}
+
 
 .responsive { /* message service phone image column */
 	width: 500px;
