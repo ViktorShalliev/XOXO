@@ -431,7 +431,7 @@ h2 { /* header design choices */
 	margin-left: 30%;
 	max-height: 200px;
 }
-img{
+.img-chat{
 	max-width: 100%;
 	border-radius: 10%;
 	
@@ -575,7 +575,6 @@ img{
 	margin-left: 5px;
 	margin-bottom: 1px;
 }
-
 .teampage-grid-container
 {
 	padding: 3em;
