@@ -154,14 +154,13 @@ body,
 	background-color:transparent;
 	margin-top: 5px ;
 }
-.grid-container{
+.about-grid-container{
 	padding: 3em;
 	margine-bottom: 3em;
 	border-radius: 2em;
 	background-color: #FFDED1;
 	width: stretch;
-	height: stretch;
-		
+	height: stretch;		
 }
 
 .rowAbout {
@@ -173,7 +172,9 @@ body,
 	font-color: black;
 	background-color:transparent;
 	margin-top: 5px ;
+
 }
+
 
 /*Mission page*/
 
@@ -450,6 +451,7 @@ text-align: center;
 /*Chatbox page and pop up*/
 
 
+
 /*Quotes page*/
 
 .sidebarContent {
@@ -679,4 +681,13 @@ h2 { /* header design choices */
 	font-size: 13px;
 	padding: 10px;
     
+}
+.teampage-grid-container
+{
+	padding: 3em;
+	margine-bottom: 3em;
+	border-radius: 2em;
+	background-color: #FFDED1;
+	width: stretch;
+	height: stretch;
 }
