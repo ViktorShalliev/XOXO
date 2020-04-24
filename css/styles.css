@@ -304,7 +304,7 @@ body,
 
 /*Justification page*/
 
-#MiCarousel{
+#MiCarousel{ /* carousel with wireframe and flow diagram */
     margin-top: 30px;
     margin-bottom: 30px;
     -webkit-box-shadow: 10px 10px 38px -13px rgba(0,0,0,0.75);
@@ -395,6 +395,105 @@ body,
 h2 { /* header design choices */
 	font-size: 40px;
 	text-align: center;
+}
+/*usability content */
+.usability { /* usability test table */
+ height:auto;
+ background-attachment:fixed;
+ background-position:top;
+ background-repeat:no-repeat;
+ background-size:cover;
+ padding:97px 0;
+margin-left: 10px;
+margin-right: 10px;
+margin-bottom: 5px;
+}
+.text { /* text of the usability test */
+ background:white;
+ box-shadow:0 0 10px 0 #ddd;
+ margin-bottom:0px;
+ height:100%
+}
+.text h3 { /*header usability */
+ padding-top:0px;
+ line-height: 1.1em;
+ font-weight: 600;
+border-color: #c1272d;
+border-style: solid;
+text-align: center;
+}
+.text p { /* text of the usability */
+    margin: 0;
+    font-size: 15px;
+    line-height: 26px;
+    margin-top: 05px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.usability .row .col-md-4 {
+    margin-bottom: 5px;
+}
+h4 {
+	align-content: center;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.product-card-test { /* card of result user testing */
+  background-color: #fdfefe;
+  max-width: 550px;
+  min-height: 320px;
+  margin: 0 auto;
+  margin-top: 200px;
+  margin-bottom: 150px;
+  box-shadow: 8px 12px 30px #b3b3b3;
+  color: black;
+  font-weight: normal;
+  text-align: left;
+  font-size: 18px;
+	position: relative;
+}
+
+.product-details-test{ /* text on card of result user testing */
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.product-card-problem { /* card of problem and recommendations user testing */
+  background-color: #fdfefe;
+  max-width: 550px;
+  min-height: 320px;
+  margin: 0 auto;
+  margin-top: 200px;
+  margin-bottom: 150px;
+  box-shadow: 8px 12px 30px #b3b3b3;
+  color: black;
+  font-weight: normal;
+  text-align: left;
+  font-size: 18px;
+	position: relative;
+}
+
+.product-details-problem{ /* text on card of problem and recommendation user testing */
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.product-card-con { /* card of conclusion user testing */
+  background-color: #fdfefe;
+  max-width: 550px;
+  min-height: 320px;
+  margin: 0 auto;
+  margin-top: 200px;
+  margin-bottom: 150px;
+  box-shadow: 8px 12px 30px #b3b3b3;
+  color: black;
+  font-weight: normal;
+  text-align: left;
+  font-size: 18px;
+	position: relative;
+}
+
+.product-details-con{ /* text on card of conclusion user testing */
+	margin-left: 10px;
+	margin-right: 10px;
 }
 /*Contact page*/
 
