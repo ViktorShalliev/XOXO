@@ -251,8 +251,17 @@ body,
 
 .backtopage:hover {
 	background-color: #A52126;
+	color: white;
 	
 }
+
+.sendcontant:hover {
+	background-color: #A52126;
+	color: white;}
+.sendcontant{
+	background-color: #c1272d;
+}
+	
 
 .page-header {
 	background-color: #c1272d;
@@ -466,10 +475,10 @@ text-align: center;
 }
 
 .card-img-top {
-    height: 16rem;
-    width: 11rem;
-    margin-left: 73px;
-    border-radius: 36px 34px 35px 37px;
+    height: 18rem;
+    width: 15rem;
+    /*margin-left: 73px;*/
+    border-radius: 12px;
     margin-top: 15px;
 }
   
@@ -484,10 +493,11 @@ text-align: center;
 }
 .card-img {
     margin-right: 104px;
-    border-radius: 50px;
-    margin-bottom: 3px;
-    height: 14rem;
-    width: 11rem;
+    border-radius: 100%;
+    border-radius: 12px;
+    margin-top: 15px;
+	height: 18rem;
+	width: 15rem;
 }
 
 .card-columns {
