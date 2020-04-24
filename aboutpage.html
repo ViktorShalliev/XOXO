@@ -13,7 +13,7 @@
 <header>
         <nav class="navbar navbar-expand-md header navbar-light sticky-top">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img src="images/Homepage/Supporting Images/logo_and_name.png" width="215px" height="90px" alt=""></a>
+                <a class="navbar-brand" href="index.html"><img src="images/Homepage/Supporting Images/logo_and_name.png" width="215" height="90" alt=""></a>
                 <div class="navbar">
                   <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
@@ -68,26 +68,119 @@
 		</ul>
 	</div>
 	</nav>
+	
 <!-- Maid grid -->
-	<div class="grid-container">
-		<div class="row rowAbout">
+	<div class="about-grid-container">
+		<div class="row">
 			<div class="col-lg-4 col-md-6 col-sm-10">
-				<a href=""><img class="img-fluid" src="Images/Aboutpage/Supporting images/Talkingcloud.png" width="700" height="700" alt=""/> </a>
-				<br>                       
-                   <p class="paragraph">Our mission!</p>
-			</div>
-			<div class="col-lg-4 col-md-6 col-sm-10">
-				<a href=""><img class="img-fluid" src="Images/Aboutpage/Supporting images/FF Logo.png" width="700" height="700" alt=""/></a>
+				<a href="#">
+				<img class="img-fluid" src="Images/Aboutpage/Supporting-images/Talkingcloud.png" width="700" height="700" alt=""/></a>
 				<br>
-               		<p class="paragraph">XOXO</p>
+												<p class="paragraph">Our Mission</p>
 			</div>
-			<div class="col-lg-4 col-md-6 col-sm-10"><a href="Team-page.html"><img class="img-fluid" src="Images/Aboutpage/Supporting images/Combined2.jpg" width="700" height="700" alt=""/></a>
-				<br>								
-					<p class="paragraph">Team XOXO</p>
+			<div class="col-lg-4 col-md-6 col-sm-10">
+				<a href="#">
+				<img class="img-fluid" src="Images/Aboutpage/Supporting-images/FF-Logo.png" width="700" height="700" alt=""/></a>
+				<br>
+												<p class="paragraph">XOXO</p>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-10">
+				<a href="#">
+				<img class="img-fluid" src="Images/Aboutpage/Supporting-images/Combined2.jpg" width="700" height="700" alt=""/></a>
+				<br>
+												<p class="paragraph">Team XoXo</p>
 			</div>
 		</div>
 	</div>
-	
+<!-- Modal-Chat-box -->
+	<!-- Button trigger modal -->
+<button type="button" class="button-chat" data-toggle="modal" data-target="#exampleModalCenter">
+  Chat box!
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="chat-container-fluid">
+		<div class="msg-header">
+			<div class="msg-header-img">
+				<img class="img-chat" src="Images/Chatbox/Supporting Images/FF-Logo.png" alt="logo"/>
+			</div>
+			<div class="active">
+				<h5>XOXO</h5>
+				<h6>1 minute ago...</h6>
+			</div>
+		</div>
+			<div class="chat-page">
+				<div class="msg-inbox">
+					<div class="chats">
+						<div class="msg-page">
+							<div class="received-chats">
+								<div class="received-chats-img">
+								<img class="img-chat" src="Images/laura.jpg" alt="pp"/>
+								</div>
+									<div class="received-msg">
+									<div class="received-msg-inbox">
+									<p>Hello XOXO! My name is Laura and i am tired of grading HTMLs!</p>
+										<span class="time">11:01 PM| April/24</span>
+									</div>
+									</div>
+								</div>
+							<div class="outgoing-chats">
+								
+									<div class="outgoing-chat-msg">
+									<div class="outgoing-chats-img">
+									<img class="img-chat" src="Images/Aboutpage/Supporting-images/FF-Logo.png" alt="logo"/>
+									</div>
+									<p>Hello, Laura! We understand and suggest it is time for a party! What do you say!?</p>
+									<span class="time">11:05 PM| April/24</span>
+									</div>
+								</div>
+								<div class="received-chats">
+								<div class="received-chats-img">
+								<img class="img-chat" src="Images/laura.jpg" alt="pp"/>
+								</div>
+								<div class="received-msg">
+								<div class="received-msg-inbox">
+								<p>I think that is what I need! Silent disco at the complex?!</p>
+										<span class="time">11:07 PM| April/24</span>
+									</div>
+									</div>
+								</div>
+							<div class="outgoing-chats">
+								
+									<div class="outgoing-chat-msg">
+									<div class="outgoing-chats-img">
+									<img class="img-chat" src="Images/Aboutpage/Supporting-images/FF-Logo.png" alt="logo"/>
+									</div>
+									<p>Sounds amazing! See you at 20:00H!</p>
+									<span class="time">11:08 PM| April/24</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		<div class="msg-bottom">
+			<div class="input-group">
+			<input type="text" class="form-control" placeholder="Tell us!">
+				<div>
+				<button type="button" class="button-send" data-toggle="modal" data-target="#exampleModalCenter">
+  					Send!
+				</button>
+				</div> 
+				</div>
+			</div>
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 <!-- Footer -->
 	<footer class="footer sticky-bottom">
 	<div class="page-footer font-small">
