@@ -145,6 +145,7 @@ body,
 	}
 
 
+
 /*About Us page*/
  	
 .paragraph{
@@ -191,6 +192,164 @@ body,
 /*Community page*/
 
 
+.buttoncommunity:hover {
+	background-color: #A52126;
+	
+}
+.buttoncommunity {
+	background-color: #c1272d;
+	color: white;
+}
+
+.image1 {
+    height: 13rem;
+    width: 16rem;
+}
+
+.image2 {
+    height: 11rem;
+    width: 12rem;
+    margin-left: 36px;
+    margin-top: 11px;
+}
+
+.image3 {
+    height: 13rem;
+    width: 13rem;
+    margin-left: 33px;
+    margin-top: 5px;
+}
+
+.image4 {
+    height: 13rem;
+    width: 11rem;
+    margin-left: 49px;
+}
+
+.image5 {
+    height: 13rem;
+}
+
+.image6 {
+    height: 13rem;
+}
+
+.topic {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Community page forum */
+
+.backtopage{
+	font-size: 17px;
+	background-color: #c1272d;
+	border-color: #c1272d;
+	text-align: center;
+	color: white;
+	}
+
+.backtopage:hover {
+	background-color: #A52126;
+	color: white;
+	
+}
+
+.sendcontant:hover {
+	background-color: #A52126;
+	color: white;}
+.sendcontant{
+	background-color: #c1272d;
+}
+	
+
+.page-header {
+	background-color: #c1272d;
+}
+
+.forumline {
+    margin-left: -70px;    
+}
+
+
+.forum {
+    margin-left: 80px;
+    margin-top: 39px;
+    margin-bottom: 15px;
+}
+.comment-list .row {
+  margin-bottom: 0px;
+}
+.comment-list .panel .panel-heading {
+  padding: 4px 15px;
+  position: absolute;
+  border:none;
+
+  border-top-right-radius:0px;
+  top: 1px;
+}
+.comment-list .panel .panel-heading.right {
+  border-top-left-radius:0px;
+  right: 16px;
+}
+.comment-list .panel .panel-heading .panel-body {
+  padding-top: 6px;
+}
+.comment-list figcaption {
+
+  word-wrap: break-word;
+}
+
+@media (min-width: 768px) {
+  .comment-list .arrow:after, .comment-list .arrow:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent;
+  }
+  .comment-list .panel.arrow.left:after, .comment-list .panel.arrow.left:before {
+    border-left: 0;
+  }
+  .comment-list .panel.arrow.left:before {
+    left: 0px;
+    top: 30px;
+    
+    border-right-color: inherit;
+    border-width: 16px;
+  }
+ 
+  .comment-list .panel.arrow.left:after {
+    left: 1px;
+    top: 31px;
+  
+    border-right-color: #FFFFFF;
+    border-width: 15px;
+  }
+
+  .comment-list .panel.arrow.right:before {
+    right: -16px;
+    top: 30px;
+    border-left-color:black;
+    border-width: 16px;
+  }
+
+  .comment-list .panel.arrow.right:after {
+    right: -14px;
+    top: 31px;
+	border-left-color: white;
+    border-width: 15px;
+  }
+}
+.comment-list .comment-post {
+    margin-top: 10px;
+}
+
+
+
+
+
 /*Services page*/
 .crd { /* services cards with text */
 	  background-color: #fdfefe;
@@ -232,6 +391,8 @@ body,
 	
 
 /*Quotes page*/
+
+
 
 
 /*Message Service page*/
@@ -284,7 +445,6 @@ text-align: center;
 	text-align: center;
 }
 
-/*Forum page*/
 
 
 /*Chatbox page and pop up*/
@@ -292,8 +452,61 @@ text-align: center;
 
 /*Quotes page*/
 
+.sidebarContent {
+    margin-bottom: 10px;
+    min-height: 150px;
+    text-align: center;
+    margin-left: 64px;
+    padding-left: 1px;
+    margin-top: 14px;
+}
+
+.mainContent {
+    margin-bottom: 10px;
+    min-height: 310px;
+    text-align: center;
+    margin-left: 22px;
+    margin-top: 15px;
+}
 
 /*Testimonials page*/
+.card-columns {
+	column-count: 3;
+}
+
+.card-img-top {
+    height: 18rem;
+    width: 15rem;
+    /*margin-left: 73px;*/
+    border-radius: 12px;
+    margin-top: 15px;
+}
+  
+.middle {
+	background-color: #C1272D;
+	color: white;
+}
+
+.right {
+	background-color: #C1272D;
+	color: white;
+}
+.card-img {
+    margin-right: 104px;
+    border-radius: 100%;
+    border-radius: 12px;
+    margin-top: 15px;
+	height: 18rem;
+	width: 15rem;
+}
+
+.card-columns {
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
 
 
 /*Justification page*/
@@ -387,9 +600,54 @@ h2 { /* header design choices */
 	text-align: center;
 }
 /*Contact page*/
+.socialmedia {
+    font-size: 15px !important;
+    align-content: center;
+    height: 3rem;
+	padding: 2px;
+	margin: 3px;
+	margin-right: 0px;
+}
 
+.border-light {
+    margin-right: 14px;
+    margin-left: 14px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
 
-/*Footer*/
+.socialmediatext {
+    background-color: #c1272d;
+    margin-top: 161px;
+    margin-right: 54px;
+    padding-bottom: 119px;
+    margin-left: 54px;
+    border-radius: 93px 93px 92px;
+}
+
+.textsocial {
+    padding-top: 27px;
+    padding-left: 58px;
+    font-size: 25pt;
+    font-weight: bold;
+}
+
+.instagramcontactus {
+    height: 8rem;    
+	padding: 3px;
+}
+
+.facebookcontactus {
+    height: 8rem; 
+	padding: 3px;
+}
+
+.socialmedia {
+    margin-left: 55px;
+    padding-left: 8px;
+}
+
+ /*Footer*/
 .sticky-bottom {
     background-color: #c1272d;
     padding: 8px;
@@ -400,6 +658,7 @@ h2 { /* header design choices */
 .socials { 
 	position: absolute;
 }
+
 
 .fa  {
     font-size: 15px !important;
@@ -421,5 +680,3 @@ h2 { /* header design choices */
 	padding: 10px;
     
 }
-
-
