@@ -367,6 +367,28 @@ text-align: center;
 	padding: 50px;
 }
 
+.accordion-item { /* header of questions design choices */
+	background-color: #c1272d;
+	font-size: 20px;
+	text-align: center;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+.content { /* answers design choices*/
+	background-color: white;
+	font-size: 15px;
+	text-align: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-color: #c1272d;
+	border-style: solid;
+	
+}
+h2 { /* header design choices */
+	font-size: 40px;
+	text-align: center;
+}
 /*Contact page*/
 
 
