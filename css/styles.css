@@ -239,8 +239,6 @@ body,
   top: 1px;
 }
 .comment-list .panel .panel-heading.right {
-  /*border-right-width: 0px;*/
-
   border-top-left-radius:0px;
   right: 16px;
 }
@@ -310,7 +308,6 @@ body,
 /*Message Service page*/
 
 
-/*Forum page*/
 
 
 /*Chatbox page and pop up*/
@@ -349,25 +346,18 @@ body,
 .middle {
 	background-color: #C1272D;
 	color: white;
-   
-       
-
 }
 
 .right {
 	background-color: #C1272D;
 	color: white;
-
-	
-	
-	
 }
 .card-img {
-    /*height: 13rem;
-    width: 11rem; */
     margin-right: 104px;
     border-radius: 50px;
     margin-bottom: 3px;
+    height: 14rem;
+    width: 11rem;
 }
 
 .card-columns {
@@ -383,9 +373,6 @@ body,
 
 
 /*Contact page*/
-
-
-
 .socialmedia {
     font-size: 15px !important;
     align-content: center;
@@ -408,7 +395,6 @@ body,
     margin-right: 54px;
     padding-bottom: 119px;
     margin-left: 54px;
-   /* margin-bottom: -250px;*/
     border-radius: 93px 93px 92px;
 }
 
@@ -434,20 +420,12 @@ body,
     padding-left: 8px;
 }
 
- {
-	
-	
-	
-}
-
-/*Footer*/
+ /*Footer*/
 .sticky-bottom {
     background-color: #c1272d;
     padding: 8px;
 	margin: 0px;
 }
-
-
 
 .fa  {
     font-size: 15px !important;
@@ -457,7 +435,6 @@ body,
 	margin: 3px;
 	margin-right: 0px;
 }
-
 
 .list-unstyled {
 	color: white;
