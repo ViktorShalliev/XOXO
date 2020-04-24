@@ -2,7 +2,7 @@
 /*General*/
 
 * {
-	font-family: "bebas-neue";
+	font-family: 'Courier Prime', monospace;
 }
 
 body,
@@ -131,6 +131,7 @@ body,
 
 .welcome {
 	text-align: center;
+	padding: 50px;
 	
 }
 
