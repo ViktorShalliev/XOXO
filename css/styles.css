@@ -149,7 +149,10 @@ body,
 		border-radius: 12px;
 	}
 
-
+.carouselop {
+	height: 600px;
+	width: 600px;
+}
 
 /*About Us page*/
  	
